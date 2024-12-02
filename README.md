@@ -20,15 +20,15 @@ Model-based analyses
 
   Model 1 : Generative effective connectivity trained on FC matrix only
 
-    1: Modularity
+  1: Modularity
 
-    2: Trophic score
+  2: Trophic score
 
   Model 2 : Generative effective connectivity trained on FC matrix and INSIDEOUT matrix
 
-    1: Modularity
+  1: Modularity
 
-    2: Trophic score
+  2: Trophic score
 
 ## Statistics
 Each psilocybin scan is accompanied by a plasma drug level measure (psi_conc). The association between each metric and plasma drug level is estimated using a random slope model. i.e., 
