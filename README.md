@@ -9,26 +9,26 @@ Subjects were scanned on two scanners with different TRs, so analyses are perfor
 
 Model-free analyses
 
-1: Normalised modularity using BCT toolbox
+  1: Normalised modularity using BCT toolbox
 
-2: INSIDEOUT heirarchicality measure
+  2: INSIDEOUT heirarchicality measure
 
-3: Assymetry of the forward time-lagged functional connectivity matrix
+  3: Assymetry of the forward time-lagged functional connectivity matrix
 
 
 Model-based analyses
 
-Model 1 : Generative effective connectivity trained on FC matrix only
+  Model 1 : Generative effective connectivity trained on FC matrix only
 
-1: Modularity
+    1: Modularity
 
-2: Trophic score
+    2: Trophic score
 
-Model 2 : Generative effective connectivity trained on FC matrix and INSIDEOUT matrix
+  Model 2 : Generative effective connectivity trained on FC matrix and INSIDEOUT matrix
 
-1: Modularity
+    1: Modularity
 
-2: Trophic score
+    2: Trophic score
 
 ## Statistics
 Each psilocybin scan is accompanied by a plasma drug level measure (psi_conc). The association between each metric and plasma drug level is estimated using a random slope model. i.e., 
@@ -38,9 +38,10 @@ fitlme(df, 'metric ~ psi_conc + Age + Sex + (1|ID)', 'FitMethod', 'ML');
 Broadly, psilocybin level will be associated with decreased heirarchicality in the brain.
 Specifically: 
 
-1: Decreased modularity
+  1: Decreased modularity
 
-2: Decreased global INSIDEOUT score
+  2: Decreased global INSIDEOUT score
 
-3: Decreased assymetry
-4: Narrowing of range of trophic scores
+  3: Decreased assymetry
+
+  4: Narrowing of range of trophic scores
